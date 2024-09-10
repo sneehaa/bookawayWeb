@@ -21,6 +21,15 @@ Welcome to the Bookaway application! This repository contains the complete codeb
 
 ## Setup Instructions
 ### Frontend:
-1. Clone the Repository:
-   ```git clone https://github.com/st6003/frontend-31b-sneehaa.git
-
+#### 1. Clone the Repository:
+```bash
+git clone https://github.com/st6003/frontend-31b-sneehaa.git
+```
+#### 2. Install Dependencies
+```bash
+npm install
+```
+#### 3. Run
+```bash
+npm start
+```
