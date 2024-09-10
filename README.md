@@ -46,22 +46,22 @@ npm start
 
 ### Key API Endpoints
 #### User
-- POST /api/user/register - Register a new user.
-- POST /api/user/login - Log in a user.
-- GET /api/user/profile/:userId - Get user profile (admin only).
-- GET /api/user/getAll - Get all users (admin only).
-- PUT /api/user/edit/:userId - Edit user profile (admin only).
-- POST /api/send-otp - Send OTP (authenticated users).
-- POST /api/verify-otp-and-update-password - Verify OTP and update password (authenticated users).
+-  **POST** `/api/user/register` - Register a new user.
+- **POST** `/api/user/login` - Log in a user.
+- **GET** `/api/user/profile/:userId` - Get user profile (admin only).
+- **GET** `/api/user/getAll` - Get all users (admin only).
+- **PUT** `/api/user/edit/:userId` - Edit user profile (admin only).
+- **POST** `/api/send-otp` - Send OTP (authenticated users).
+- **POST** `/api/verify-otp-and-update-password` - Verify OTP and update password (authenticated users).
 
 #### Hotel
-- POST /api/hotel/create_hotel - Create a new hotel (admin only).
-- GET /api/hotel/get_hotels - Get all hotels.
-- GET /api/hotel/get_hotel/:id - Get a hotel by ID.
-- PUT /api/hotel/update_hotel/:id - Update hotel (admin only).
-- DELETE /api/hotel/delete_hotel/:id - Delete a hotel (admin only).
+- **POST** `/api/hotel/create_hotel` - Create a new hotel (admin only).
+- **GET** `/api/hotel/get_hotels` - Get all hotels.
+- **GET** `/api/hotel/get_hotel/:id` - Get a hotel by ID.
+- **PUT** `/api/hotel/update_hotel/:id` - Update hotel (admin only).
+- **DELETE** `/api/hotel/delete_hotel/:id` - Delete a hotel (admin only).
 
 #### Booking
-- POST /api/booking/book_hotel/:hotelId - Book a hotel.
-- DELETE /api/booking/delete_booking/:id - Delete a booking.
-- GET /api/booking/my-bookings - Get user's bookings.
+- **POST** `/api/booking/book_hotel/:hotelId` - Book a hotel.
+- **DELETE** `/api/booking/delete_booking/:id` - Delete a booking.
+- **GET** `/api/booking/my-bookings` - Get user's bookings.
