@@ -1,0 +1,93 @@
+
+
+.user-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.user-profile {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.profile-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.edit-profile-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.edit-profile-link:hover {
+    color: #0056b3;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 18px;
+    text-align: center;
+}
+
+.initials-placeholder {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #ced4da;
+    border-radius: 50%;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.upload-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.upload-photo {
+    display: none;
+}
+
+.text-field {
+    margin-bottom: 20px;
+}
+
+.save-button {
+    margin-top: 20px;
+    color: #ff8b8b;
+}
